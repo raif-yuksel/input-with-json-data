@@ -105,7 +105,7 @@ document.getElementById('login-form').addEventListener('submit', function(e) {
       } 
       toastr.success(user.type +' Olarak oturum açtı.');
       setTimeout(function() { 
-        window.location.href = "./deneme.html";
+        window.location.href = "./homePage.html";
       }, 2500);
     } else {
       password_element.value = '';
